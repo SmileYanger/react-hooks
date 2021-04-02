@@ -1,13 +1,9 @@
 
 import './App.css';
 
-// import UseState from './components/UseState'
-// import Example from './components/Example'
-// import UseEffectDemo2 from './components/useEffectDemo2.jsx'
-// import Example2 from './components/Example2';
-// import UseContext from './components/useContextDemo'
-// import ReducerDemo2 from './components/useContextDemo2'
-import UseReducerDemo2 from './components/useReducer/UseReducerDemo2.jsx'
+// import UseReducerDemo2 from './components/useReducer/UseReducerDemo2.jsx'
+import UseStateDemo2 from './components/useState/UseStateDemo2 ';
+import UseMemoDemo1 from './components/UseMemo/UseMemoDemo1'
 function App() {
   return (
     <div className="App">      
@@ -18,7 +14,9 @@ function App() {
       {/* <UseEffectDemo2></UseEffectDemo2> */}
       {/* <UseContext></UseContext> */}
       {/* <ReducerDemo2></ReducerDemo2> */}
-      <UseReducerDemo2></UseReducerDemo2>
+      {/* <UseReducerDemo2></UseReducerDemo2> */}
+      {/* <UseStateDemo2></UseStateDemo2> */}
+      <UseMemoDemo1></UseMemoDemo1>
       <hr/>
     </div>
   );
